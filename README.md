@@ -52,9 +52,26 @@ Edit `questions.json` with the new month's questions, then restart the server. T
 
 - **Spacebar**: Skip the countdown timer and end the question early (useful if everyone has answered)
 
-## Network Access
+## Live Deployment (Render)
 
-If players can't connect, make sure:
+The quiz is deployed at **https://fmp-product-quiz.onrender.com** via Render's free tier.
+
+- **Host screen**: https://fmp-product-quiz.onrender.com/host.html
+- **Player screen**: https://fmp-product-quiz.onrender.com
+
+### Updating the deployed version
+
+1. Push changes to the GitHub repo: https://github.com/rebeccaverschuur/fmp-product-quiz
+2. Go to the Render dashboard → **Manual Deploy** → **Deploy latest commit**
+
+### Notes
+
+- Free tier spins down after 15 minutes of inactivity. First load after idle takes ~30 seconds.
+- The GitHub repo is the deployment source. The Gitea repo in `general` is the working copy.
+
+## Network Access (Local)
+
+If running locally and players can't connect, make sure:
 - All devices are on the same Wi-Fi network
 - Use the computer's local IP address instead of `localhost` (e.g. `http://192.168.1.50:3000`)
 - The firewall allows connections on port 3000
