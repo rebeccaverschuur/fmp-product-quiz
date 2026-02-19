@@ -1,0 +1,126 @@
+{
+  "title": "February 2026 Product Quiz",
+  "timePerQuestion": 15,
+  "questions": [
+    {
+      "question": "What does the blue button on the LISS do?",
+      "options": [
+        "Suction",
+        "Irrigation",
+        "Diathermy",
+        "Cut"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What tissue is evacuated during Vacuum Aspiration?",
+      "options": [
+        "Cervix",
+        "Myometrium",
+        "Endometrium",
+        "Fundus"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What pressure range is used for Electric Suction Evacuation?",
+      "options": [
+        "400-600mmHg",
+        "100-300mmHg",
+        "200-400mmHg",
+        "600-800mmHg"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What features does our FMP Rovac Handle have?",
+      "options": [
+        "Vented",
+        "rotational",
+        "ON/OFF slider",
+        "flexible"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which curette range has fenestrated lateral openings?",
+      "options": [
+        "curved rigid",
+        "straight rigid",
+        "tubing",
+        "flexible"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Why is rigid wide bore tubing preferred?",
+      "options": [
+        "durable",
+        "all of the above",
+        "wont collapse/kink",
+        "higher vacuum pressure"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which competitor has a curette & tubing set?",
+      "options": [
+        "Stark Medical",
+        "Ebos",
+        "ITL Biomedical",
+        "Atris"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Which curette range do we sell the most of?",
+      "options": [
+        "curved rigid",
+        "straight rigid",
+        "tubing",
+        "flexible"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What is the design of the Lap scissor blades",
+      "options": [
+        "curved sharp",
+        "curved blunt",
+        "straight blunt",
+        "straight sharp"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What type of electrocautery is used with the lap scissor?",
+      "options": [
+        "Bipolar",
+        "none",
+        "both",
+        "Monopolar"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What does the shaft do?",
+      "options": [
+        "rotate 360",
+        "fixed",
+        "cut",
+        "bend"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "What is the maximum Cautery power?",
+      "options": [
+        "Cut 300w/ Coag 120w",
+        "Cut 500w/ Coag 700w",
+        "Cut 100w/ Coag 220w",
+        "Cut 1300w/ Coag 1200w"
+      ],
+      "correct": 0
+    }
+  ]
+}

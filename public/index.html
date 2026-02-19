@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>FMP Product Quiz</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Landing: choose player or host -->
+  <div id="landing" class="screen active">
+    <div class="logo-container">
+      <img src="img/logo.png" alt="Fairmont Medical Products" class="logo">
+    </div>
+    <div class="join-form">
+      <h1>Product Quiz</h1>
+      <p>Enter your name to join</p>
+      <input type="text" id="nameInput" class="input-field" placeholder="Your name" maxlength="20" autocomplete="off" autocapitalize="words">
+      <div class="error-message" id="errorMsg"></div>
+      <button class="btn btn-primary" id="joinBtn">Join Quiz</button>
+      <div class="host-link-container">
+        <a href="#" id="hostLink" class="host-link">Host this quiz</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PLAYER: Waiting for host to start -->
+  <div id="waiting" class="screen player-screen">
+    <div class="waiting-screen">
+      <div class="waiting-name" id="waitingName"></div>
+      <div class="waiting-text">Waiting for host to start<span class="waiting-dots"></span></div>
+    </div>
+  </div>
+
+  <!-- PLAYER: Starting countdown -->
+  <div id="pStarting" class="screen player-screen">
+    <div class="starting-screen">
+      <div class="starting-text">Get ready!</div>
+    </div>
+  </div>
+
+  <!-- PLAYER: Answer -->
+  <div id="answer" class="screen player-screen">
+    <div class="question-counter" id="pQuestionCounter" style="margin-bottom: 12px; text-align: center;"></div>
+    <div class="player-timer" id="pTimer">15</div>
+    <div class="player-question-text" id="pQuestionText"></div>
+    <div class="player-options" id="pOptions"></div>
+  </div>
+
+  <!-- PLAYER: Answer locked in -->
+  <div id="answered" class="screen player-screen">
+    <div class="waiting-screen">
+      <div style="font-size: 2.4rem; margin-bottom: 16px;">&#10003;</div>
+      <div class="waiting-text" style="font-size: 1.2rem;">Answer locked in!</div>
+      <div class="waiting-text" style="margin-top: 8px; color: var(--grey-400);">Waiting for everyone else<span class="waiting-dots"></span></div>
+    </div>
+  </div>
+
+  <!-- PLAYER: Feedback -->
+  <div id="feedback" class="screen player-screen">
+    <div class="feedback-screen">
+      <div class="feedback-icon" id="feedbackIcon"></div>
+      <div class="feedback-text" id="feedbackText"></div>
+      <div class="feedback-points" id="feedbackPoints"></div>
+      <div class="feedback-rank" id="feedbackRank"></div>
+      <div class="feedback-total" id="feedbackTotal"></div>
+    </div>
+  </div>
+
+  <!-- PLAYER: Final -->
+  <div id="pFinal" class="screen player-screen">
+    <div class="logo-container">
+      <img src="img/logo.png" alt="Fairmont Medical Products" class="player-logo logo">
+    </div>
+    <div class="player-final">
+      <h2 style="font-size: 1.4rem; color: var(--grey-400); margin-bottom: 16px;">Quiz Complete!</h2>
+      <div class="player-final-rank" id="pFinalRank"></div>
+      <div class="player-final-name" id="pFinalName"></div>
+      <div class="player-final-score" id="pFinalScore"></div>
+    </div>
+  </div>
+
+  <!-- HOST: Lobby -->
+  <div id="lobby" class="screen">
+    <div class="logo-container">
+      <img src="img/logo.png" alt="Fairmont Medical Products" class="logo">
+    </div>
+    <h1 class="lobby-title" id="quizTitle">Product Quiz</h1>
+    <p class="lobby-subtitle" id="quizSubtitle">Loading...</p>
+
+    <div class="players-section">
+      <div class="players-heading"><span id="playerCount">0</span> players joined</div>
+      <div class="players-grid" id="playersGrid"></div>
+    </div>
+
+    <button class="btn btn-primary" id="startBtn" disabled>Start Quiz</button>
+  </div>
+
+  <!-- HOST: Starting countdown -->
+  <div id="hStarting" class="screen">
+    <div class="starting-screen">
+      <div class="starting-text">Get ready...</div>
+    </div>
+  </div>
+
+  <!-- HOST: Question -->
+  <div id="question" class="screen">
+    <div class="question-progress" id="questionProgress"></div>
+    <div class="question-header">
+      <div class="question-counter" id="questionCounter">Question 1 of 5</div>
+      <div class="answer-counter"><span id="answerCount">0</span> / <span id="answerTotal">0</span> answered</div>
+    </div>
+    <div class="timer-container" id="timerContainer">
+      <svg class="timer-svg" viewBox="0 0 120 120">
+        <circle class="timer-track" cx="60" cy="60" r="50"/>
+        <circle class="timer-progress" id="timerProgress" cx="60" cy="60" r="50"/>
+      </svg>
+      <div class="timer-number" id="timerNumber">15</div>
+    </div>
+    <div class="question-text" id="questionText"></div>
+    <div class="options-grid" id="optionsGrid"></div>
+  </div>
+
+  <!-- HOST: Results -->
+  <div id="results" class="screen">
+    <h2 style="font-size: 1.8rem; margin-bottom: 16px;">Results</h2>
+    <div class="question-text" id="resultsQuestionText" style="font-size: 1.6rem;"></div>
+    <div class="options-grid" id="resultsOptions" style="margin-bottom: 32px;"></div>
+    <div class="results-chart" id="resultsChart"></div>
+  </div>
+
+  <!-- HOST: Leaderboard -->
+  <div id="leaderboard" class="screen">
+    <h2 class="leaderboard-title">Leaderboard</h2>
+    <ul class="leaderboard-list" id="leaderboardList"></ul>
+    <button class="btn btn-primary leaderboard-next" id="nextBtn">Next Question</button>
+  </div>
+
+  <!-- HOST: Final -->
+  <div id="hFinal" class="screen">
+    <div class="celebration" id="celebration"></div>
+    <div class="logo-container" style="position: relative; z-index: 1;">
+      <img src="img/logo.png" alt="Fairmont Medical Products" class="logo">
+    </div>
+    <h1 class="final-title" style="position: relative; z-index: 1;">Quiz Complete!</h1>
+    <div class="podium-container" id="podium" style="position: relative; z-index: 1;"></div>
+    <ul class="final-scores-list" id="finalScores" style="position: relative; z-index: 1;"></ul>
+    <div class="final-buttons" style="position: relative; z-index: 1;">
+      <button class="btn btn-primary" id="playAgainBtn">Play Again</button>
+      <button class="btn btn-secondary" id="newGameBtn">New Game</button>
+    </div>
+  </div>
+
+  <!-- Disconnected / No game -->
+  <div id="noGame" class="screen player-screen">
+    <div class="waiting-screen">
+      <div class="waiting-text" style="font-size: 1.2rem;">No active quiz session.</div>
+      <div class="waiting-text" style="margin-top: 8px; color: var(--grey-400);">Ask the host to start one, then refresh this page.</div>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/quiz.js"></script>
+</body>
+</html>

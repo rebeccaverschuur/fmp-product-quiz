@@ -1,0 +1,56 @@
+{
+  "title": "February 2026 Product Quiz",
+  "timePerQuestion": 15,
+  "questions": [
+    {
+      "question": "What is the intended use of the DRE Resectoscope?",
+      "options": [
+        "Cardiac surgery",
+        "Urological procedures",
+        "Orthopaedic repair",
+        "Dental implants"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which sterilisation method is most commonly used for single-use surgical instruments?",
+      "options": [
+        "Autoclave steam",
+        "Ethylene oxide (EtO)",
+        "Dry heat",
+        "UV radiation"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What does GTIN stand for on a product barcode?",
+      "options": [
+        "General Trade Identification Number",
+        "Global Trade Item Number",
+        "Generic Tracking Index Number",
+        "Government Trade Instrument Notation"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Fairmont Medical Products is headquartered in which Australian state?",
+      "options": [
+        "New South Wales",
+        "Victoria",
+        "Queensland",
+        "Western Australia"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What classification does the TGA assign to low-risk medical devices such as surgical drapes?",
+      "options": [
+        "Class I",
+        "Class IIa",
+        "Class IIb",
+        "Class III"
+      ],
+      "correct": 0
+    }
+  ]
+}
