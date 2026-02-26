@@ -3,122 +3,132 @@
   "timePerQuestion": 15,
   "questions": [
     {
-      "question": "What does the blue button on the LISS do?",
+      "question": "When is National Donut Day celebrated in Australia?",
       "options": [
-        "Suction",
-        "Irrigation",
-        "Diathermy",
-        "Cut"
+        "First Friday in June",
+        "Second Saturday in July",
+        "Last Friday in August",
+        "First Monday in April"
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "What tissue is evacuated during Vacuum Aspiration?",
+      "question": "What does it mean to wear your \"birthday suit\"?",
       "options": [
-        "Cervix",
-        "Myometrium",
-        "Endometrium",
-        "Fundus"
+        "Wearing a special outfit for your birthday party",
+        "Dressing in your favorite color",
+        "Wearing a suit covered in birthday decorations",
+        "Being completely naked"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What country is credited with inventing the donut?",
+      "options": [
+        "United States",
+        "France",
+        "England",
+        "Germany"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "In which country did the tradition of birthday candles begin?",
+      "options": [
+        "Ancient Rome",
+        "Ancient Egypt",
+        "Ancient Greece",
+        "Ancient China"
       ],
       "correct": 2
     },
     {
-      "question": "What pressure range is used for Electric Suction Evacuation?",
+      "question": "What is the most popular donut flavor",
       "options": [
-        "400-600mmHg",
-        "100-300mmHg",
-        "200-400mmHg",
-        "600-800mmHg"
+        "plain Glazed",
+        "chocolate glazed",
+        "straberry glazed",
+        "cinnamon sugar"
       ],
       "correct": 0
     },
     {
-      "question": "What features does our FMP Rovac Handle have?",
+      "question": "What is a \"golden birthday\"?",
       "options": [
-        "Vented",
-        "rotational",
-        "ON/OFF slider",
-        "flexible"
+        "Turning 50 years old",
+        "When you turn the age that matches the day of the month you were born",
+        "Your birthday falls on a holiday",
+        "Celebrating your birthday with a gold-themed party"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "What is the hole in the middle of a donut called?",
+      "options": [
+        "Donut Gap",
+        "Donut Hole",
+        "Donut Gap",
+        "Donut Centre"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Which country has a tradition of smearing butter on the nose for good luck",
+      "options": [
+        "Ireland",
+        "Canada",
+        "Scotland",
+        "Norway"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "In what culture were the first birthday cakes believed to be baked?",
+      "options": [
+        "Ancient Greeks",
+        "Ancient Romans",
+        "Ancient Egyptians",
+        "Ancient Mesopotamians"
       ],
       "correct": 2
     },
     {
-      "question": "Which curette range has fenestrated lateral openings?",
+      "question": "What is a \"cruller\"?",
       "options": [
-        "curved rigid",
-        "straight rigid",
-        "tubing",
-        "flexible"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "Why is rigid wide bore tubing preferred?",
-      "options": [
-        "durable",
-        "all of the above",
-        "wont collapse/kink",
-        "higher vacuum pressure"
+        "A filled donut",
+        "A twisted, ridged donut",
+        "A donut topped with sprinkles",
+        "A mini donut"
       ],
       "correct": 1
     },
     {
-      "question": "Which competitor has a curette & tubing set?",
+      "question": "What is the last birthday a person celebrates as a \"tween\"?",
       "options": [
-        "Stark Medical",
-        "Ebos",
-        "ITL Biomedical",
-        "Atris"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Which curette range do we sell the most of?",
-      "options": [
-        "curved rigid",
-        "straight rigid",
-        "tubing",
-        "flexible"
+        "10",
+        "11",
+        "13",
+        "12"
       ],
       "correct": 3
     },
     {
-      "question": "What is the design of the Lap scissor blades",
+      "question": "Which fast food chain is most famous for its donuts in Australia?",
       "options": [
-        "curved sharp",
-        "curved blunt",
-        "straight blunt",
-        "straight sharp"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What type of electrocautery is used with the lap scissor?",
-      "options": [
-        "Bipolar",
-        "none",
-        "both",
-        "Monopolar"
+        "Dunkin",
+        "Donut King",
+        "Daniels donuts",
+        "Krispy Kreme"
       ],
       "correct": 3
     },
     {
-      "question": "What does the shaft do?",
+      "question": "What were donuts originally called?",
       "options": [
-        "rotate 360",
-        "fixed",
-        "cut",
-        "bend"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "What is the maximum Cautery power?",
-      "options": [
-        "Cut 300w/ Coag 120w",
-        "Cut 500w/ Coag 700w",
-        "Cut 100w/ Coag 220w",
-        "Cut 1300w/ Coag 1200w"
+        "Fried cakes",
+        "Sugar rings",
+        "Dough rings",
+        "Sweet rounds"
       ],
       "correct": 0
     }

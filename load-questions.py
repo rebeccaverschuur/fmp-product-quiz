@@ -9,7 +9,7 @@ xlsx = sys.argv[1] if len(sys.argv) > 1 else 'quiz-template.xlsx'
 wb = load_workbook(xlsx, data_only=True)
 ws = wb.active
 
-letter_map = {'A': 0, 'B': 1, 'C': 2, 'D': 3}
+letter_map = {'A': 0, 'B': 1, 'C': 2, 'D': 3, '1': 0, '2': 1, '3': 2, '4': 3}
 questions = []
 
 for row in ws.iter_rows(min_row=2, max_col=6, values_only=True):
@@ -18,7 +18,7 @@ for row in ws.iter_rows(min_row=2, max_col=6, values_only=True):
         break
     correct = str(correct).strip().upper()
     if correct not in letter_map:
-        print(f"Warning: Skipping row — invalid correct answer '{correct}' (must be A, B, C, or D)")
+        print(f"Warning: Skipping row — invalid correct answer '{correct}' (must be A/B/C/D or 1/2/3/4)")
         continue
     questions.append({
         'question': str(question).strip(),
