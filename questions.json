@@ -1,136 +1,146 @@
 {
-  "title": "February 2026 Product Quiz",
+  "title": "March 2026 Product Quiz",
   "timePerQuestion": 15,
   "questions": [
     {
-      "question": "When is National Donut Day celebrated in Australia?",
+      "question": "What type of bone is removed when the femoral brush is used?",
       "options": [
-        "First Friday in June",
-        "Second Saturday in July",
-        "Last Friday in August",
-        "First Monday in April"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "What does it mean to wear your \"birthday suit\"?",
-      "options": [
-        "Wearing a special outfit for your birthday party",
-        "Dressing in your favorite color",
-        "Wearing a suit covered in birthday decorations",
-        "Being completely naked"
-      ],
-      "correct": 3
-    },
-    {
-      "question": "What country is credited with inventing the donut?",
-      "options": [
-        "United States",
-        "France",
-        "England",
-        "Germany"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "In which country did the tradition of birthday candles begin?",
-      "options": [
-        "Ancient Rome",
-        "Ancient Egypt",
-        "Ancient Greece",
-        "Ancient China"
+        "Cortical",
+        "Femur",
+        "Cancellous",
+        "Tibia"
       ],
       "correct": 2
     },
     {
-      "question": "What is the most popular donut flavor",
+      "question": "Which other Supplier has an internal battery Pulse Lavage system like ours",
       "options": [
-        "plain Glazed",
-        "chocolate glazed",
-        "straberry glazed",
-        "cinnamon sugar"
+        "Fairmont",
+        "Stryker",
+        "Zimmer",
+        "Molnlycke"
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "question": "What is a \"golden birthday\"?",
+      "question": "What tip comes with our Pulse Lavage for all future orders",
       "options": [
-        "Turning 50 years old",
-        "When you turn the age that matches the day of the month you were born",
-        "Your birthday falls on a holiday",
-        "Celebrating your birthday with a gold-themed party"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "What is the hole in the middle of a donut called?",
-      "options": [
-        "Donut Gap",
-        "Donut Hole",
-        "Donut Gap",
-        "Donut Centre"
+        "Femoral brush",
+        "Short/Cone Tip",
+        "Coaxial tip",
+        "Long tip"
       ],
       "correct": 1
     },
     {
-      "question": "Which country has a tradition of smearing butter on the nose for good luck",
+      "question": "How many batteries does the external version have",
       "options": [
-        "Ireland",
-        "Canada",
-        "Scotland",
-        "Norway"
-      ],
-      "correct": 1
-    },
-    {
-      "question": "In what culture were the first birthday cakes believed to be baked?",
-      "options": [
-        "Ancient Greeks",
-        "Ancient Romans",
-        "Ancient Egyptians",
-        "Ancient Mesopotamians"
+        "6",
+        "7",
+        "8",
+        "9"
       ],
       "correct": 2
     },
     {
-      "question": "What is a \"cruller\"?",
+      "question": "What is the key difference between DOSS and DYS?",
       "options": [
-        "A filled donut",
-        "A twisted, ridged donut",
-        "A donut topped with sprinkles",
-        "A mini donut"
+        "The Filter",
+        "Difference tip options",
+        "Longer",
+        "wider"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "How many degrees can you flex the tip?",
+      "options": [
+        "Up to 10deg",
+        "Up to 15deg",
+        "Up to 20deg",
+        "Up to 25deg"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "Which supplier doesnt have a spare filter in the suction set",
+      "options": [
+        "Bosco",
+        "Fairmont",
+        "Unoquip",
+        "Meditech"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "How many swabs sticks are in the new scope scope",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
       ],
       "correct": 1
     },
     {
-      "question": "What is the last birthday a person celebrates as a \"tween\"?",
+      "question": "What are the swabs used for?",
       "options": [
-        "10",
-        "11",
-        "13",
-        "12"
+        "Cleaning the scope",
+        "Cleaning the trocar",
+        "Cleaning the CO2 line",
+        "Cleaning the wound"
       ],
-      "correct": 3
+      "correct": 1
     },
     {
-      "question": "Which fast food chain is most famous for its donuts in Australia?",
+      "question": "Why do you need PE lined monitoring tubing",
       "options": [
-        "Dunkin",
-        "Donut King",
-        "Daniels donuts",
-        "Krispy Kreme"
+        "Latex free",
+        "Accuracy for CO2 monitoring",
+        "Volatile gas leakage",
+        "Reduce humification in the line"
       ],
-      "correct": 3
+      "correct": 2
     },
     {
-      "question": "What were donuts originally called?",
+      "question": "Which manufacturing process pushes plastic through a shaped die to create continuous lengths of tubing or profiles?",
       "options": [
-        "Fried cakes",
-        "Sugar rings",
-        "Dough rings",
-        "Sweet rounds"
+        "Injection Moulding",
+        "Ultrasonic Welding",
+        "Plastic Extrusion",
+        "Corrugation"
       ],
-      "correct": 0
+      "correct": 2
+    },
+    {
+      "question": "Which capability joins plastic parts together without any glue, screws, or solvents \u2014 often in less than one second?",
+      "options": [
+        "UV Adhesive Curing",
+        "Ultrasonic Welding",
+        "High-Speed Sub Assembly",
+        "Injection Moulding"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Injection moulding was compared to which kitchen appliance?",
+      "options": [
+        "A blender",
+        "A pasta maker",
+        "A waffle iron",
+        "A pressure cooker"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Which capability uses a special adhesive that stays liquid until exposed to UV light, then hardens instantly?",
+      "options": [
+        "Ultrasonic Welding",
+        "ETO Sterilization",
+        "Plastic Extrusion",
+        "UV Adhesive Curing"
+      ],
+      "correct": 3
     }
   ]
 }
